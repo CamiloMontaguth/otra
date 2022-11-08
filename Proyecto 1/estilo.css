@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all-content {
+    display: flex;
+}
+article,aside {
+    width: 50%;
+}
+section {
+    width: 80%;
+}
+article {
+    display: flex;
+    justify-content:start;
+    padding-left: 25px;
+}
+.buscador {
+    margin-left: 95px;
+}
+.img2 {
+    border-radius: 20px;
+}
+#face {
+    color: #3498DB;
+    margin-left: 40px;
+}
+
+#btnBuscar:hover { 
+    background-color:#283747 ;
+    color: white;
+}
+.footer {
+    
+    justify-content: space-between ;
+    display: flex;
+    text-align: center; 
+    background-color: #283747;
+    color: white;
+}
+
+.para {
+    justify-content: space-between;
+    padding: 50px;
+    text-align: center; 
+}
+.tarjeta {
+    display: flex;
+     
+}
+.card {
+    margin: 10px;   
+}
+
+.caro {
+    position: relative;
+    width: 100%;
+    
+    margin-bottom: 100px;
+}
+
+.caro img {
+    height: 550px;
+    border-radius: 0 0 15px 0; 
+}
+
+
+
+
