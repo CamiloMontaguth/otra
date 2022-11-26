@@ -1,0 +1,21 @@
+
+.container {
+    height: 300px;
+    background: #86f;
+    padding: 30px;
+}
+
+.caja {
+    background: #025;
+    height: 100px;
+    width: 100px;
+    transition-property: background;
+    transition-duration: 1s;
+
+
+}
+
+.caja:hover {
+    background: green
+
+}
