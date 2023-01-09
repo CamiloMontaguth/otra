@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*ARTICULO 1*/
+
+.articulo {
+    width: 100%;
+    height: 300px;
+}
+.articulo div{
+    text-align: center;
+}
+
+.articulo h1 {
+    font-size: 50px;
+}
+.articulo b {
+    font-size: 20px;
+}
+
+.div1 a{
+    background-color: #5c5ce0;
+    border-radius: 50px;
+    padding: 12px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+.div1 a:hover {
+    background-color:#4646C6;
+    
+    
+}
+
+/*ARTICULO2*/
+
+.articulo2 {
+    width: 70%;
+    height: 300px;
+    margin: 0 200px 0 200px;
+    
+}
+.articulo2 img {
+    width: 430px;
+
+}
+.div2 {
+    display: flex;
+}
+.rapido {
+    height: 30%;
+    width: 100%;
+    font-size: 15px;
+}
+.rapido a{
+    background-color: #5c5ce0;
+    border-radius: 50px;
+    padding: 12px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.rapido a:hover {
+    background-color:#4646C6;  
+}
+/*ARTICULO3*/
+.div3 {
+    display: flex;
+    align-items: center;
+}
+.tiqueta_h3 {
+    width: 40%;
+    margin-left: 40px;
+}
+.tiqueta_h3 a {
+    background: #5c5ce0;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 8px;
+}
+.tiqueta_h3 b {
+    font-size: 11px;
+}
+.tiqueta_h3 a:hover {
+    background-color:#4646C6;
+}
+.chiquita {
+    font-size: 10px;
+    margin-top: 15px;
+}
